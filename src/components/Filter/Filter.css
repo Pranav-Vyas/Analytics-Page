@@ -1,0 +1,51 @@
+
+.filter-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.filters {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col {
+    min-width: 80px;
+    margin: 0 20px 20px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+    background-color: white;
+}
+.col:hover {
+    background-color: bisque;
+}
+.apply {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close-btn {
+    height: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    background-color: aliceblue;
+}
+
+@media screen and (max-width: 550px) {
+    .filters {
+        justify-content: center;
+    }
+}

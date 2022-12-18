@@ -1,0 +1,25 @@
+.table-wrapper {
+  width: 100%;
+  text-align: center;
+  overflow-x: auto;
+}
+
+.data-table {
+  table-layout: fixed;
+  margin: auto;
+  min-width: 800px;
+}
+
+.td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.td,
+th {
+  padding: 5px 10px;
+}
+
+.column {
+  width: 10%;
+}
