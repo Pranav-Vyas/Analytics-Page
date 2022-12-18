@@ -63,7 +63,7 @@ function Home() {
 
   const fetchData = useCallback((sDate,eDate) => {
       fetch(
-        `http://go-dev.greedygame.com/v3/dummy/report?startDate=${sDate}&endDate=${eDate}`
+        `https://go-dev.greedygame.com/v3/dummy/report?startDate=${sDate}&endDate=${eDate}`
       )
         .then((res) => {
           return res.json();
